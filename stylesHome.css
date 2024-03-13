@@ -1,0 +1,126 @@
+.color {
+  background-color: black;
+}
+
+.social {
+  width: 400px;
+  background-color: black;
+  text-align: left;
+  float: left;
+  height: 131px;
+}
+
+.banner {
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.dropbtn {
+  background-color: black;
+  color: #56d542;
+  padding: 16px;
+  font-size: 18px;
+  border: none;
+  float: right;
+  width: 320px;
+  height: 131px;
+  font-family: "Better VCR";
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  width: 320px;
+  font-family: "Better VCR";
+  height: 131px;
+}
+
+.dropdown-content a {
+  color: #56d542;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  text-align: right;
+}
+
+.dropdown-content a:hover {
+  background-color: #201f1f;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #201f1f;
+}
+
+.aaa {
+  font-size: 18px;
+  color: #56d542;
+  font-family: "Better VCR";
+  text-decoration: none;
+  line-height: 20px;
+  margin-top: 0;
+}
+
+a:hover {
+  color: #00ffab;
+}
+
+.photo {
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.opisanie {
+  font-size: 20px;
+  color: #56d542;
+  font-family: "Kreadon";
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+}
+
+.footer {
+  color: #56d542;
+  background-color: black;
+  font-family: "Kreadon";
+  text-align: center;
+  font-size: 12px;
+  line-height: 10px;
+  border-top: solid 2px;
+  margin-top: 25px;
+}
+
+#up {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  bottom: 1px;
+  left: 20px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: "Better VCR";
+  src: url(/шрифты/better-vcr-5.4.ttf);}
+
+@font-face {
+  font-family: "Kreadon";
+  src: url(/шрифты/ofont.ru_Kreadon.ttf);}
