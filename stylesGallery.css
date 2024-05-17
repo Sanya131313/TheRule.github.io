@@ -25,7 +25,7 @@ body {
   float: right;
   width: 320px;
   height: 131px;
-  font-family: 'Sans', arial;
+  font-family: Comic sans MS;
 }
 
 .dropdown {
@@ -40,7 +40,7 @@ body {
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   width: 320px;
-  font-family: 'Sans', sans-serif;
+  font-family: Comic sans MS;
   height: 131px;
 }
 
@@ -68,7 +68,7 @@ body {
 .aaa {
   font-size: 18px;
   color: #56d542;
-  font-family: 'Sans', sans-serif;
+  font-family: Comic sans MS;
   text-decoration: none;
   line-height: 20px;
   margin-top: 0;
@@ -139,12 +139,4 @@ a:hover {
   border-radius: 30px;
   cursor: pointer;
 }
-
-@font-face {
-  font-family: 'Sans';
-  font-style: normal;
-  font-weight: normal;
-  src: url(/шрифты/ofont.ru_Comic\ Sans\ MS.ttf)
-  }
-
   @import url('https://fonts.cdnfonts.com/css/kreadon');
