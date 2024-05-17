@@ -25,7 +25,7 @@ body {
   float: right;
   width: 320px;
   height: 131px;
-  font-family: "Better VCR";
+  font-family: 'Sans', arial;
 }
 
 .dropdown {
@@ -40,7 +40,7 @@ body {
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   width: 320px;
-  font-family: "Better VCR";
+  font-family: 'Sans', sans-serif;
   height: 131px;
 }
 
@@ -68,7 +68,7 @@ body {
 .aaa {
   font-size: 18px;
   color: #56d542;
-  font-family: "Better VCR";
+  font-family: 'Sans', sans-serif;
   text-decoration: none;
   line-height: 20px;
   margin-top: 0;
@@ -81,7 +81,7 @@ a:hover {
 .footer {
   color: #56d542;
   background-color: black;
-  font-family: "Kreadon";
+  font-family: 'Kreadon', sans-serif;
   text-align: center;
   font-size: 12px;
   line-height: 10px;
@@ -124,8 +124,10 @@ a:hover {
 .texte {
   text-align: center;
   color: #56d542;
-  font-family: "Better VCR";
-  font-size: 35px;
+  font-family: 'Kreadon', sans-serif;
+  font-size: 20px;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 #up {
@@ -139,11 +141,10 @@ a:hover {
 }
 
 @font-face {
-  font-family: "Better VCR";
-  src: url(/шрифты/better-vcr-5.4.ttf);
-}
+  font-family: 'Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: url(/шрифты/ofont.ru_Comic\ Sans\ MS.ttf)
+  }
 
-@font-face {
-  font-family: "Kreadon";
-  src: url(/шрифты/ofont.ru_Kreadon.ttf);
-}
+  @import url('https://fonts.cdnfonts.com/css/kreadon');
