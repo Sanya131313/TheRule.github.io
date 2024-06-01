@@ -157,8 +157,13 @@
       src: local('Kreadon Regular'), url('Kreadon-R-BF64ab60b33c5e0.woff') format('woff');
       }
   
-  @font-face {
-    font-family: Better;
-    src: url("/шрифты/better-vcr-5.4.ttf");
+   @font-face {
+    font-family: 'Better';
+    src: url('../шрифты/bettervcr.eot'); /* IE 9 Compatibility Mode */
+    src: url('../шрифты/bettervcr.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+      url('../шрифты/bettervcr.woff2') format('woff2'), /* Super Modern Browsers */
+      url('../шрифты/bettervcr.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+      url('../шрифты/bettervcr.ttf') format('truetype'), /* Safari, Android, iOS */
+      url('../шрифты/bettervcr.svg#bettervcr') format('svg'); /* Chrome < 4, Legacy iOS */
   }
   
