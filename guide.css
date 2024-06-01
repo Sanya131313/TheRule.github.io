@@ -1,0 +1,164 @@
+.color {
+    background-color: black;
+  }
+  
+  .social {
+    width: 400px;
+    background-color: black;
+    text-align: left;
+    float: left;
+    height: 131px;
+  }
+  
+  .banner {
+    width: auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .dropbtn {
+    background-color: black;
+    color: #56d542;
+    padding: 16px;
+    font-size: 18px;
+    border: none;
+    float: right;
+    width: 320px;
+    height: 131px;
+    font-family: Better;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 320px;
+    font-family: Better;
+    height: 131px;
+  }
+  
+  .dropdown-content a {
+    color: #56d542;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    text-align: right;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #201f1f;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #201f1f;
+  }
+  
+  .aaa {
+    font-size: 18px;
+    color: #56d542;
+    font-family: Better;
+    text-decoration: none;
+    line-height: 20px;
+    margin-top: 0;
+  }
+  
+  a:hover {
+    color: #00ffab;
+  }
+
+  .footer {
+    color: #56d542;
+    background-color: black;
+    font-family: 'Kreadon Regular';
+    text-align: center;
+    font-size: 12px;
+    line-height: 10px;
+    border-top: solid 2px;
+    margin-top: 25px;
+  }
+
+  #up {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 1px;
+    left: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  .podval {
+    color: #56d542;
+    font-family: 'Kreadon Regular';
+    font-size: 16px;
+    text-align: left;
+    display: flex;
+    float: left;
+    padding: 10px;
+    margin-top: -10px;
+  }
+  
+  .sayt {
+    color: #56d542;
+    font-family: 'Kreadon Regular';
+    font-size: 16px;
+    text-align: right;
+    display: flex;
+    float: right;
+    padding: 10px;
+    margin-top: -10px;
+  }
+  
+  .pochta {
+    color: #56d542;
+    font-family: 'Kreadon Regular';
+    font-size: 16px;
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  .avtor {
+    color: #56d542;
+    font-family: 'Kreadon Regular';
+    font-size: 16px;
+    text-align: right;
+    margin-top: -35px;
+  }
+  
+.text {
+  text-align: center;
+  font-family: 'Kreadon Regular';
+  color: #56d542;
+  font-size: 20px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.prtsc {
+  text-align: center;
+}
+
+  @font-face {
+      font-family: 'Kreadon Regular';
+      font-style: normal;
+      font-weight: normal;
+      src: local('Kreadon Regular'), url('Kreadon-R-BF64ab60b33c5e0.woff') format('woff');
+      }
+  
+  @font-face {
+    font-family: Better;
+    src: url("/шрифты/better-vcr-5.4.ttf");
+  }
+  
